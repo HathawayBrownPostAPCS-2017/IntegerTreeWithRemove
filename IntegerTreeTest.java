@@ -12,7 +12,7 @@ public class IntegerTreeTest {
 		IntegerTree myTree = new IntegerTree();
 		myTree.setMessages(true);
 		
-		System.out.print("Enter the tree yourself [0] or at random [1]:");
+		System.out.print("Enter the tree yourself [0] or at random [1]: ");
 		int choice = keyboard.nextInt();
 		
 		if (choice == 0)    // enter numbers into the tree
